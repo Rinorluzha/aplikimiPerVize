@@ -599,7 +599,7 @@ public class ApplicationForm extends javax.swing.JFrame {
                         switch(Byte.parseByte(mosha.getText())){
                             case 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17:
                                 output.setForeground(Color.RED);
-                                output.setText("Mosha minimale duhet të jetë 18 vjet !");
+                                output.setText("Mosha minimale për aplikim është 18 vjet !");
                                 break;
                             default:{
                                 if(!email.getText().contains("@")|| (!email.getText().endsWith(".info")&& !email.getText().endsWith(".com"))){
